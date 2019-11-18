@@ -1,0 +1,182 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-font name="century-gothic" href="https://use.typekit.net/ffh4pih.css"></mj-font>
+    <mj-font name="Heebo" href="https://fonts.googleapis.com/css?family=Heebo"></mj-font>
+    <mj-title>Avantage de carrière, vidéo 1 : Prendre contact</mj-title>
+    <mj-preview>Bienvenue à votre première vidéo de la série sur les conversations de carrière.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Heebo, Helvetica, sans-serif" font-size="18px" />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .box-shadow td {
+        box-shadow: 0 4px 6px hsla(0, 0%, 46%, 0.2), 0 1px 3px hsla(0, 0%, 46%, 0.2);
+      }
+
+      .box-shadow a {
+        letter-spacing: 0.6px;
+      }
+
+      .section {
+        background: #ffffff;
+        padding: 0 20px;
+      }
+
+      .branded div,
+      .mj-link,
+      .cta-button a {
+        font-family: century-gothic, Heebo, Helvetica, sans-serif !important;
+        letter-spacing: .4px !important;
+        font-weight: 700 !important;
+        text-transform: lowercase !important;
+      }
+
+      .cta-button table {
+        margin-bottom: 20px;
+      }
+
+      .cta-button table td {
+        border-radius: 10px 10px 10px 10px !important;
+        font-size: 16px;
+        height: 40px;
+        background-color: #1a3cfa !important;
+      }
+
+      .cta-button a {
+        background-color: #1a3cfa !important;
+      }
+
+      .header-text div,
+      .signoff-logo div {
+        color: #2d2d2d !important;
+        font-size: 36px !important;
+        line-height: 54px !important;
+      }
+
+      .body-text div,
+      .greeting-text div,
+      .signoff-text div,
+      .email-footer-text div,
+      .mj-menu-label {
+        font-family: Heebo, Helvetica, sans-serif;
+        font-weight: 400;
+        color: #627899 !important;
+        font-size: 14px !important;
+        line-height: 26px !important;
+        letter-spacing: 0.2px !important;
+      }
+
+      .email-footer-text div a {
+        color: #1a3cfa !important;
+      }
+
+      p.greeting-text {}
+
+      .signoff-logo div {
+        color: #1a3cfa !important;
+      }
+
+      td.divider p {
+        border-color: #edf0f1 !important;
+        border-width: 1px !important;
+      }
+
+      .email-footer-text div {
+        text-align: center;
+        font-size: 12px !important;
+
+      }
+
+      .email-footer-text div table td {
+        padding: 0 !important;
+      }
+
+      .email-footer-text div table td div {
+        text-align: center !important;
+        font-size: 12px !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media screen and (max-width: 600px) {
+        .header-text div {
+          font-size: 26px !important;
+          line-height: 32px !important;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#edf0f1">
+    <!-- Header -->
+    <mj-section padding-top="1px" background-color="#edf0f1"> </mj-section>
+    <mj-section css-class="section" border-radius="20px 20px 0 0">
+      <mj-column padding-top="20px">
+        <mj-image src="http://cdn.mcauto-images-production.sendgrid.net/611344d042ddb84f/eb10b27a-a92a-47ed-8486-11a62df56f29/139x40.gif" alt="Avenue Logo" title="Avenue Logo" width="139px" height="40px" padding-bottom="20px" />
+        <mj-text css-class="header-text branded" font-family="century-gothic, Heebo, Helvetica, sans-serif">
+          Avantage de carrière, vidéo 1 : Prendre contact
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Body -->
+    <mj-section css-class="section">
+      <mj-column>
+        <mj-image css-class="box-shadow" width="320px" height="180px" title="vignette vidéo" alt="vignette vidéo" src="http://cdn.mcauto-images-production.sendgrid.net/611344d042ddb84f/1a8bf9fb-5911-481a-8802-2c7cfe517aae/320x180.jpg" />
+        <mj-button css-class="branded cta-button box-shadow" href="https://vimeo.com/373463042/20de0e6fd9">
+          Regarder la vidéo</mj-button>
+
+        <mj-text css-class="body-text">
+          <p class="greeting-text">Bonjour {{ first_name }},</p>
+          <p>Nous sommes heureux de votre participation dans le programme des avantage de carrière.</p>
+          <p>Bienvenue à votre première vidéo de la série sur les conversations de carrière.</p>
+          <p>Au cours des prochaines semaines, vous recevrez trois vidéos - toutes conçues pour vous aider à poursuivre votre apprentissage et à continuer sur votre lancée afin de créer la carrière que vous souhaitez.</p>
+          <h3>Vidéo n ° 1 : Prendre contact</h3>
+          <p>Si vous êtes comme la plupart des participants, vous avez beaucoup de momentum. Dans cette vidéo, nous vous donnons des conseils supplémentaires pour vous aider à surmonter toute résistance à la prise de contact avec les personnes les plus importantes de votre environnement.</p>
+        </mj-text>
+
+        <mj-text css-class="body-text">Vous l’avez en tout ! </mj-text>
+        <mj-text css-class="signoff-logo branded">avenue</mj-text>
+
+        <mj-text css-class="body-text">💁<a href="http://help.avenuecareers.com/"> Pouvons-nous vous aider ?</a></mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Email Footer -->
+    <mj-section css-class="section email-footer-text" border-radius="0 0 20px 20px" padding-bottom="60px">
+      <mj-column>
+        <mj-divider css-class="divider"> </mj-divider>
+        <mj-spacer height="30px" />
+        <mj-text> Si vous souhaitez ne plus recevoir ces courriels: </mj-text>
+
+        <mj-text>
+          <a target="_blank" title="Gérer les préférences de courrier électronique" href="{{unsubscribe_preferences}}">Gérer les préférences de courrier électronique</a>
+        </mj-text>
+
+        <mj-text>
+          <a target="_blank" title="Se désabonner" href="{{unsubscribe}}">Se désabonner</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Avenue Footer -->
+    <mj-section css-class="avenue-footer email-footer-text" background-color="#edf0f1">
+      <mj-column>
+        <mj-navbar base-url="https://avenuecareers.com" hamburger="hamburger" ico-color="#1a3cfa" css-class="branded">
+          <mj-navbar-link font-size="10px" target="_blank" href="/" color="#1a3cfa">Avenue</mj-navbar-link>
+          <mj-navbar-link font-size="10px" target="_blank" href="/politique-de-confidentialite" color="#1a3cfa">Politique de confidentialité</mj-navbar-link>
+          <mj-navbar-link font-size="10px" target="_blank" href="/conditions-generales" color="#1a3cfa">Conditions générales</mj-navbar-link>
+          <mj-navbar-link font-size="10px" target="_blank" href="http://help.avenuecareers.com/" color="#1a3cfa">Aide</mj-navbar-link>
+        </mj-navbar>
+
+        <mj-text>
+          Copyright © 2019 avenue, Tous les droits sont réservés.
+        </mj-text>
+        <mj-text>
+          {{ Sender_Address }} {{ Sender_City }} {{ Sender_State }} {{ Sender_Country }} {{ Sender_Zip  }}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
