@@ -5,42 +5,42 @@ const handlebars = require('handlebars');
 const chalk = require('chalk');
 const fs = require('fs');
 
-//Configuración de Sendgrid
+//Configure Sendgrid
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
-//Información utilizada como "variables" en el correo
+//Variable setup
 const userInfo = {
-    name: 'Nicolas',
-    lastname: 'Avila',
+    name: 'Lisa',
+    lastname: 'Ross',
     email: process.env.RECIPENT_EMAIL,
-    patients: [
-        { id: 24654, name: 'Matias Erazo' },
-        { id: 24655, name: 'Rodrigo Gutierrez' },
+    people: [
+        { id: 24654, name: 'Lisa Ross' },
+        { id: 24655, name: 'Lisa McMillan' },
     ]
 }
 
 
-console.log(chalk.green('Leyendo información de template example.js'));
+console.log(chalk.green('Reading template information example.js'));
 const mjmlTemplateFile = fs.readFileSync(`${__dirname}/views/example.hbs`, 'utf8');
 const template = handlebars.compile(mjmlTemplateFile);
 const hbsHtml = template(userInfo);
 const templateMarkup = mjml(hbsHtml);
-if ( templateMarkup.errors.length == 0 ){
+if (templateMarkup.errors.length == 0) {
     const msg = {
         to: userInfo.email,
         from: {
-            email: 'nucleo@alemana.cl',
-            name: 'Informática Biomédica'
+            email: 'lisa@avenuego.com',
+            name: 'Avenue'
         },
-        subject: 'Contacto de aplicación de ejemplo',
+        subject: 'Sample application contact',
         html: templateMarkup.html
     }
-    
+
     sendgrid.send(msg).then((response) => {
-        console.log(chalk.green('Correo enviado!'));
+        console.log(chalk.green('Email sent!'));
     }, (error) => {
-        console.log(chalk.red(error.message));    
+        console.log(chalk.red(error.message));
     })
 } else {
-    console.log(chalk.red('Existen errores en el markup de MJML'));
+    console.log(chalk.red('There are errors in the MJML markup'));
 }
