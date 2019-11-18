@@ -2,18 +2,18 @@
   "name": "mjml-sendgrid-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "example.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lisa Ross",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.3.1",
-    "chalk": "^2.4.2",
-    "dotenv": "^7.0.0",
-    "handlebars": "^4.1.2",
-    "mjml": "^4.4.0-beta.1"
+    "@sendgrid/mail": "^6.4.0",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "handlebars": "^4.5.3",
+    "mjml": "^4.5.1"
   }
 }
