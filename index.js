@@ -20,8 +20,8 @@ const userInfo = {
 }
 
 
-console.log(chalk.green('Reading template information example.js'));
-const mjmlTemplateFile = fs.readFileSync(`${__dirname}/views/example.hbs`, 'utf8');
+console.log(chalk.green('Reading template information index.js'));
+const mjmlTemplateFile = fs.readFileSync(`${__dirname}/views/video.mjml`, 'utf8');
 const template = handlebars.compile(mjmlTemplateFile);
 const hbsHtml = template(userInfo);
 const templateMarkup = mjml(hbsHtml);
@@ -32,7 +32,7 @@ if (templateMarkup.errors.length == 0) {
             email: 'lisa@avenuego.com',
             name: 'Avenue'
         },
-        subject: 'Sample application contact',
+        subject: 'avantage de carrière, vidéo 1 : prendre contact',
         html: templateMarkup.html
     }
 
