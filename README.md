@@ -1,14 +1,17 @@
-# MJML + Template System + Sendgrid Example
-> An example of putting together MJML, Handlebars & Sendgrid for building responsive mails
+# MJML + Template System + Sendgrid
+
+MJML, Handlebars & Sendgrid for building responsive mails
 
 ## Installation
+
 1. Clone the repository
 2. Run `npm install`
 3. Add your **Sendgrid API Key** in `.env` file
-3. Add your **Recipent Email** `.env` file
-4. Run `node example.js`
+4. Add your **Recipent Email** `.env` file
+5. Run `node example.js`
 
 ## How it works
+
 1. The app loads `.env` environment configuration.
 2. The view in `views/example.hbs` is loaded.
 3. The loaded view (now as a string) is converted to an Handlebars Template.
