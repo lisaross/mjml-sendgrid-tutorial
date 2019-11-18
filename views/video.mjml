@@ -127,11 +127,13 @@
 
         <mj-text css-class="body-text">
           <p class="greeting-text">Bonjour {{ first_name }},</p>
-          <p>Nous sommes heureux de votre participation dans le programme des avantage de carrière.</p>
-          <p>Bienvenue à votre première vidéo de la série sur les conversations de carrière.</p>
-          <p>Au cours des prochaines semaines, vous recevrez trois vidéos - toutes conçues pour vous aider à poursuivre votre apprentissage et à continuer sur votre lancée afin de créer la carrière que vous souhaitez.</p>
-          <h3>Vidéo n ° 1 : Prendre contact</h3>
-          <p>Si vous êtes comme la plupart des participants, vous avez beaucoup de momentum. Dans cette vidéo, nous vous donnons des conseils supplémentaires pour vous aider à surmonter toute résistance à la prise de contact avec les personnes les plus importantes de votre environnement.</p>
+          {{#with content}}
+            <p>{{{p1}}}</p>
+            <p>{{{p2}}}</p>
+            <p>{{{p3}}}</p>
+            <h3>{{{h}}}</h3>
+            <p>{{{p4}}}</p>
+          {{/with}}
         </mj-text>
 
         <mj-text css-class="body-text">Vous l’avez en tout ! </mj-text>
