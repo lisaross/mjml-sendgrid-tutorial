@@ -36,12 +36,17 @@ if (templateMarkup.errors.length == 0) {
         subject: 'avantage de carrière, vidéo 1 : prendre contact',
         html: templateMarkup.html
     }
+    var stream = fs.createWriteStream("./dist/template.html");
+    stream.once('open', function (fd) {
+        stream.write(templateMarkup.html);
+        stream.end();
+    });
 
-    sendgrid.send(msg).then((response) => {
-        console.log(chalk.green('Email sent!'));
-    }, (error) => {
-        console.log(chalk.red(error.message));
-    })
+    // sendgrid.send(msg).then((response) => {
+    //     console.log(chalk.green('Email sent!'));
+    // }, (error) => {
+    //     console.log(chalk.red(error.message));
+    // })
 } else {
     console.log(chalk.red('There are errors in the MJML markup'));
 }
