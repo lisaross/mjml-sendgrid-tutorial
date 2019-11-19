@@ -1,6 +1,16 @@
-function defaultTask(cb) {
-  // place code for your default task here
-  cb();
+const gulp = require('gulp')
+
+const mjml = require('gulp-mjml')
+const mjmlEngine = require('mjml')
+
+function handleError(err) {
+  console.log(err.toString());
+  this.emit('end');
 }
 
-exports.default = defaultTask
+gulp.task('default', function () {
+  return gulp.src('./views/*.mjml')
+    .pipe(mjml(mjmlEngine, { validationLevel: 'strict' }))
+    .on('error', handleError)
+    .pipe(gulp.dest('./html'))
+})
