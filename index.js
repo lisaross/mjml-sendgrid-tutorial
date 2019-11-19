@@ -9,7 +9,7 @@ const fs = require('fs');
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 //Variable setup
-const userInfo = {
+const content = {
     email: process.env.RECIPENT_EMAIL,
     content: {
         p1: "Nous sommes heureux de votre participation dans le programme des avantage de carrière.",
@@ -20,23 +20,19 @@ const userInfo = {
     }
 }
 
-
 console.log(chalk.green('Reading template information index.js'));
+
 const mjmlTemplateFile = fs.readFileSync(`${__dirname}/views/video.mjml`, 'utf8');
 const template = handlebars.compile(mjmlTemplateFile);
-const hbsHtml = template(userInfo);
+
+const hbsHtml = template(content);
 const templateMarkup = mjml(hbsHtml);
 if (templateMarkup.errors.length == 0) {
     const msg = {
-        to: userInfo.email,
-        from: {
-            email: 'lisa@avenuego.com',
-            name: 'Avenue'
-        },
-        subject: 'avantage de carrière, vidéo 1 : prendre contact',
         html: templateMarkup.html
     }
-    var stream = fs.createWriteStream("./dist/template.html");
+
+    var stream = fs.createWriteStream("./dist/video.html");
     stream.once('open', function (fd) {
         stream.write(templateMarkup.html);
         stream.end();
