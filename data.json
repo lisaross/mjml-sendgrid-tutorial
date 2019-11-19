@@ -1,0 +1,83 @@
+{
+  "first_name": "Lisa",
+  "content": [
+    {
+      "emailName": "vid1-fr",
+      "subject": "Avantage de carrière, vidéo 1 : Prendre contact",
+      "title": "Avantage de carrière, vidéo 1 : Prendre contact",
+      "preview": "Au cours des prochaines semaines, vous recevrez trois vidéos",
+      "greeting": "Bonjour",
+      "p1": "Nous sommes heureux de votre participation dans le programme des avantage de carrière.",
+      "p2": "Bienvenue à votre première vidéo de la série sur les conversations de carrière.",
+      "p3": "Au cours des prochaines semaines, vous recevrez trois vidéos - toutes conçues pour vous aider à poursuivre votre apprentissage et à continuer sur votre lancée afin de créer la carrière que vous souhaitez.",
+      "h": "Vidéo n ° 1 : Prendre contact",
+      "p4": "Si vous êtes comme la plupart des participants, vous avez beaucoup de momentum. Dans cette vidéo, nous vous donnons des conseils supplémentaires pour vous aider à surmonter toute résistance à la prise de contact avec les personnes les plus importantes de votre environnement.",
+      "signoff": "Vous l’avez en tout !"
+    },
+    {
+      "emailName": "vid1-en",
+      "subject": "Career Advantage Video #1: Reaching Out",
+      "title": "Career Advantage Video #1: Reaching Out",
+      "preview": "Over the next few weeks, you'll receive three videos",
+      "greeting": "Hi there",
+      "p1": "We enjoyed having you in the Career Advantage program.",
+      "p2": "Welcome to the first of your Career Advantage Video Series.",
+      "p3": "Over the next few weeks, you'll receive three videos - all designed to help you deepen the learning from the program and keep the momentum going in further designing the career you're looking for.",
+      "h": "Video #1: Reaching Out",
+      "p4": "If you're like most participants, you've got a lot of momentum. In this video we give you additional tips that help you move past any possible resistance to reaching out and getting conversations booked with the really important people in your world.",
+      "signoff": "You've got this!"
+    },
+    {
+      "emailName": "vid2-en",
+      "subject": "Career Advantage Video #2: Getting Started",
+      "title": "Career Advantage Video #2: Getting Started",
+      "preview": "ou've got the initial career conversation booked. Now what?!",
+      "greeting": "Hi again,",
+      "p1": "Here's the second video in your Career Conversations Video Series: Getting Started.",
+      "p2": "You've got the initial conversation booked. Now what?!",
+      "p3": "In this video we share how to open what might be a new type of conversation with your Inner Circle member - a career conversation. In other words, how do you just get started!",
+      "h": "Career Advantage Video #2: Getting Started",
+      "p4": "Remember to reach out to your buddy as well. Share your victories and what you're learning with them.",
+      "signoff": "Enjoy!"
+    },
+    {
+      "emailName": "vid2-fr",
+      "subject": "Avantage de carrière, vidéo 2 : Commencer",
+      "title": "Avantage de carrière, vidéo 2 : Commencer",
+      "preview": "Vous avez pris rendez-vous pour la conversation initiale. Quelle est la suite ?!",
+      "greeting": "Re-bonjour",
+      "p1": "Voici votre deuxième vidéo de la série sur les conversations de carrière : Commencer.",
+      "p2": "Vous avez pris rendez-vous pour la conversation initiale. Quelle est la suite ?!",
+      "p3": "Dans cette vidéo, nous vous expliquons comment engager un nouveau genre de conversation avec un membre de votre cercle interne - une conversation de carrière. En d'autres termes, comment vous lancez-vous !",
+      "h": "Vidéo 2 : Commencer",
+      "p4": "N'oubliez pas de prendre contacter avec votre partenaire de responsabilité. Partagez vos victoires et ce que vous apprenez de vos expériences.",
+      "signoff": "Profitez-en !"
+    },
+    {
+      "emailName": "vid3-en",
+      "subject": "Career Advantage Video #3: Going Deeper",
+      "title": "Career Advantage Video #3: Going Deeper",
+      "preview": "In this video, we walk you through how to go deeper once you've got feedback.",
+      "greeting": "Hi there",
+      "p1": "We’re sure you're making some surprising progress in the conversations about your career - nice!",
+      "p2": "You've started having the initial conversations - sharing your results from the program and opening the conversation in a new way.",
+      "p3": "In this video, we walk you through how to go deeper once you've got feedback. This is where things can get really useful for you.",
+      "h": "Video #3: Going Deeper",
+      "p4": "Remember, the game is to have 5+ conversations before our completion webinar (approximately 4 weeks post-program). We're looking forward to hearing what you learned.",
+      "signoff": "Keep going, you're doing great."
+    },
+    {
+      "emailName": "vid3-fr",
+      "subject": "Avantage de carrière, vidéo 3: Aller plus en profondeur",
+      "title": "Avantage de carrière, vidéo 3: Aller plus en profondeur",
+      "preview": "Au cours des prochaines semaines, vous recevrez trois vidéos",
+      "greeting": "Re-bonjour",
+      "p1": "Nous sommes sûrs que vous faites des progrès surprenants dans les conversations au sujet de votre carrière – c’est excellent !",
+      "p2": "Vous avez commencé à avoir les conversations initiales - en partageant vos résultats du programme et en ouvrant la conversation d'une nouvelle manière.",
+      "p3": "Dans cette vidéo, nous vous expliquons comment l’approfondir une fois que vous avez reçu des commentaires. C'est là que les choses peuvent vraiment vous être utiles.",
+      "h": "Vidéo 3: Aller plus en profondeur",
+      "p4": "Rappelez-vous que l’objectif est d’avoir plus de 5 conversations avant notre webinaire de clôture (environ 4 semaines après le programme). Nous sommes impatients d'entendre ce que vous avez appris.",
+      "signoff": "Continuez, vous êtes bien partis."
+    }
+  ]
+}
